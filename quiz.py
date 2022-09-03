@@ -1,35 +1,35 @@
 
 
 
-print("Hello , Lets put your knowledge about India to the test to the test!")
+print("Hello , Lets put your knowledge to the test to the test!")
 name = input("Enter your name:")
 print("what a nice name " + name + "!")
 
 score = 0
 
-option = input("Do you want to play the quiz on India's freedom? (Respond with Y for YES or N or NO) :")
+option = input("Do you want to play the quiz? (Respond with Y for YES or N or NO) :")
 if option != "Y":
         quit()
 
 
 answer1 = input("What was the First war of independence in India? (answer in lowercase)")
-if answer1 != "revolt of 1857":
+if answer1 != "ans1":
+    print("you got the answer wrong!")
+else:
+    print("you got the answer correct")
+    score += 1
+#replace questions and answers with yours
+
+answer1 = input("q2 (answer in SMALL letters)")
+if answer1 != "abcde":
     print("you got the answer wrong!")
 else:
     print("you got the answer correct")
     score += 1
 
 
-answer1 = input("how long has india remained independant? (answer in SMALL letters)")
-if answer1 != "75":
-    print("you got the answer wrong!")
-else:
-    print("you got the answer correct")
-    score += 1
-
-
-answer1 = input("In which year did we get independence? (fill the blank and answer in lowercase)")
-if answer1.lower() != "1947":
+answer1 = input("q3 (fill the blank and answer in lowercase)")
+if answer1.lower() != "abcde":
     print("you got the answer wrong!")
 else:
     print("you got the answer correct")
@@ -44,8 +44,8 @@ else:
     score += 1
 
 
-answer1 = input("Who started the revolt of 1857? __________ Pandey (fill in the blank and answer in lowercase):")
-if answer1 != "mangal":
+answer1 = input("my name is _____ (fill in the blank and answer in lowercase):")
+if answer1 != "jai": # really
     print("you got the answer wrong!")
 else:
     print("you got the answer correct")
